@@ -37,13 +37,16 @@ async function generate(
 
 export async function POST(req: Request) {
   try {
-    const { question, matchCount = 6 } = await req.json();
+    const { question, matchCount = 6, source } = await req.json();
     if (!question || !question.trim()) {
       return NextResponse.json(
         { error: "question is required" },
         { status: 400 }
       );
     }
+
+    // Optional: scope retrieval to a single document. null = search everything.
+    const filterSource = source && source !== "" ? source : null;
 
     // 1. Embed the question once; reuse the vector for both retrievers.
     const queryEmbedding = await embed(question);
@@ -53,10 +56,12 @@ export async function POST(req: Request) {
       supa.rpc("match_ideablocks", {
         query_embedding: queryEmbedding,
         match_count: matchCount,
+        filter_source: filterSource,
       }),
       supa.rpc("match_naive_chunks", {
         query_embedding: queryEmbedding,
         match_count: matchCount,
+        filter_source: filterSource,
       }),
     ]);
 

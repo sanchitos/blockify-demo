@@ -214,6 +214,15 @@ function AskQuestions() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [result, setResult] = useState<AskResult | null>(null);
+  const [sources, setSources] = useState<string[]>([]);
+  const [source, setSource] = useState("");
+
+  useEffect(() => {
+    fetch("/api/sources")
+      .then((r) => r.json())
+      .then((j) => setSources(j.sources ?? []))
+      .catch(() => {});
+  }, []);
 
   async function ask() {
     setLoading(true);
@@ -223,7 +232,7 @@ function AskQuestions() {
       const res = await fetch("/api/ask", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ question }),
+        body: JSON.stringify({ question, source: source || undefined }),
       });
       const json = await res.json();
       if (!res.ok) throw new Error(json.error || "Request failed");
@@ -253,6 +262,18 @@ function AskQuestions() {
           >
             {loading ? "Thinking…" : "Ask both"}
           </button>
+          <select
+            value={source}
+            onChange={(e) => setSource(e.target.value)}
+            title="Scope the question to one document"
+          >
+            <option value="">All documents</option>
+            {sources.map((s) => (
+              <option key={s} value={s}>
+                {s}
+              </option>
+            ))}
+          </select>
         </div>
         <p className="subtitle" style={{ margin: "10px 0 0" }}>
           Same question, same prompt, same model — the only difference is what

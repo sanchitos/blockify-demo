@@ -1,0 +1,96 @@
+ACME FREIGHT — DRIVER OPERATIONS KNOWLEDGE BASE (COMPILED)
+
+Note: This knowledge base was assembled from several internal sources — the
+driver handbook, dispatch memos, IT help tickets, and safety bulletins. Because
+it was merged from multiple places, some guidance is repeated in more than one
+section. It is intended as a single reference for over-the-road drivers.
+
+
+SECTION 1 — GETTING STARTED
+
+Welcome to Acme Freight. This section covers the basics you need in your first
+week. Your driver ID is printed on the back of your badge and is required for
+most support requests.
+
+To reset your fuel card PIN, call the Fuel Services desk at extension 4400 and
+verify your driver ID. A new PIN is texted to your phone on file within about
+fifteen minutes. Do not share your PIN with anyone, including dispatch.
+
+Uniforms are ordered through the company store. New drivers receive two sets of
+shirts and one jacket; replacements are at the driver's expense after the first
+ninety days.
+
+
+SECTION 2 — FREQUENTLY ASKED QUESTIONS
+
+Q: I forgot my fuel card PIN. What do I do?
+A: Call Fuel Services at extension 4400, verify your driver ID, and you will
+receive a new PIN by text message in roughly fifteen minutes. PIN resets are not
+handled by dispatch.
+
+Q: How do I request paid time off?
+A: PTO requests must be submitted in the driver portal at least fourteen days
+before the requested dates. Requests inside fourteen days are approved only at
+the terminal manager's discretion.
+
+Q: Where do I send lumper receipts?
+A: Photograph the lumper receipt and upload it in the portal under the load
+number within twenty-four hours. Paper receipts mailed to the terminal are no
+longer accepted.
+
+
+SECTION 3 — COMMON ISSUES AND HOW TO RESOLVE THEM
+
+Fuel card PIN resets are handled by the Fuel Services desk at extension 4400.
+Have your driver ID ready. The replacement PIN arrives by SMS in approximately
+fifteen minutes. This is the fastest path; opening an IT ticket for a PIN reset
+will only be redirected to Fuel Services and will take longer.
+
+If your electronic logging device (ELD) freezes, power-cycle the unit by holding
+the side button for ten seconds. The current approved ELD firmware is version
+4.8.2; do not let the unit update beyond 4.8.2 without IT approval, as later
+builds have a known sync defect with our dispatch system.
+
+Breakdown protocol: pull off safely, place triangles, then call the Breakdown
+line before calling anyone else so the load clock can be paused.
+
+
+SECTION 4 — NIGHT AND AFTER-HOURS OPERATIONS
+
+Night operations run on a reduced staff, so expect longer hold times on routine
+lines between 10 PM and 5 AM. Routine questions should wait until day shift when
+possible. For genuine emergencies after hours — accidents, cargo security
+incidents, or anything involving driver safety — the after-hours emergency
+dispatch line is 1-800-555-0147, staffed twenty-four hours. Use it only for
+true emergencies; routine fuel card or PIN issues should still go to Fuel
+Services during business hours.
+
+Detention pay begins after two hours of wait time at a shipper or receiver and
+accrues at twenty dollars per hour. You must log arrival and departure in the
+portal for detention to be calculated; undocumented wait time is not paid.
+
+
+SECTION 5 — DISPATCH MEMO 2026-02 (REPRINTED)
+
+Reminder to all drivers: fuel card PIN problems go to Fuel Services at extension
+4400, not to dispatch. You must verify your driver ID. A new PIN is texted to
+you in about fifteen minutes. Dispatch will redirect these calls, which slows
+everyone down during peak hours.
+
+Also in this memo: reroutes involving hazardous materials loads that add more
+than five thousand dollars in cost require sign-off from the Director of Safety
+before the truck moves. Standard non-hazmat reroutes can be approved by the
+on-duty dispatcher.
+
+
+SECTION 6 — ONBOARDING CHECKLIST (FOR REFERENCE)
+
+New drivers should complete the following in week one: badge photo, portal
+login, ELD pairing, and a test fuel transaction. If your fuel card PIN does not
+work during the test transaction, contact Fuel Services at extension 4400 with
+your driver ID and you will get a texted reset in about fifteen minutes. Confirm
+your uniform order and submit any first-period PTO requests through the portal
+at least fourteen days ahead.
+
+End of compiled knowledge base. For corrections, file a ticket with the Driver
+Platforms team.

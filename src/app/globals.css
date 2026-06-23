@@ -197,6 +197,16 @@ input[type="file"] {
   font-size: 13px;
 }
 
+select {
+  background: #0e1117;
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 9px 10px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
 .compare {
   display: grid;
   grid-template-columns: 1fr 1fr;
